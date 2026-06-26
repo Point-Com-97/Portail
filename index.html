@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-animate" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-animate" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="image/logo.png" alt="Logo du portail d'inscription" class="logo">
@@ -24,18 +24,18 @@
                 <ul class="navbar-nav nav-underline">
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" id="nav-item"
+                        <a class="nav-link" aria-current="page" id="nav-item" target="_blank"
                             href="https://www.pointcom-guyane.fr/">Notre site</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" id="nav-item"
+                        <a class="nav-link" aria-current="page" id="nav-item" target="_blank"
                             href="https://www.canva.com/design/DAFQI_-V5xY/7p5Fap0JhS1J8emdZRf1Lg/watch?utm_content=DAFQI_-V5xY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6ef6c5ba7b">Notre
                             Catalogue</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" id="nav-item"
+                        <a class="nav-link" aria-current="page" id="nav-item" target="_blank"
                             href="https://baserow.io/form/oB9Wkj4lGIfdQADY0ZT9IigxWG8I75JBL9J6nsuxa8g">Inscription</a>
                     </li>
                 </ul>
@@ -62,7 +62,7 @@
                 <h1 class="title">Portail d'inscription</h1>
                 <p class="text">Inscrivez-vous facilement à nos formations en quelques étapes.</p>
                 <a href="https://baserow.io/form/oB9Wkj4lGIfdQADY0ZT9IigxWG8I75JBL9J6nsuxa8g"
-                    class="btn btn-primary cta-btn">
+                    class="btn btn-primary cta-btn" target="_blank">
                     <i class="bi bi-person-fill"></i> S'inscrire maintenant
                 </a>
             </div>
@@ -173,30 +173,133 @@
             <div class="row">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list"
-                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
-                            href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-                            href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-                            href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                        <a class="list-group-item list-group-item-action active" id="list-cadga-list"
+                            data-bs-toggle="list" href="#list-cadga" role="tab" aria-controls="list-cadga">CHARGE
+                            D’ACCUEIL ET DE GESTION ADMINISTRATIVE</a>
+                        <a class="list-group-item list-group-item-action" id="list-secretaire-list"
+                            data-bs-toggle="list" href="#list-secretaire" role="tab"
+                            aria-controls="list-secretaire">SECRETAIRE COMPTABLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-comptable-list" data-bs-toggle="list"
+                            href="#list-comptable" role="tab" aria-controls="list-comptable">COMPTABLE ASSISTANT</a>
+                        <a class="list-group-item list-group-item-action" id="list-assistant-list" data-bs-toggle="list"
+                            href="#list-assistant" role="tab" aria-controls="list-assistant">ASSISTANT DE DIRECTION</a>
+                        <a class="list-group-item list-group-item-action" id="list-arh-list" data-bs-toggle="list"
+                            href="#list-arh" role="tab" aria-controls="list-arh">ASSISTANT RESSOURCES HUMAINES</a>
                     </div>
                 </div>
                 <div class="col-8">
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                            aria-labelledby="list-home-list">...</div>
-                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                            aria-labelledby="list-profile-list">...</div>
-                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
-                            aria-labelledby="list-messages-list">...</div>
-                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
-                            aria-labelledby="list-settings-list">...</div>
-                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
-                            aria-labelledby="list-settings-list">...</div>
+                        <div class="tab-pane fade show active" id="list-cadga" role="tabpanel"
+                            aria-labelledby="list-cadga-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 4
+                                    (BAC)</li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue</li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    CAP/BEP
+                                    NIV 3 ou équivalence ou 1 année d'expérience dans le domaine</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold">
+                                        Description : </i> Le
+                                    chargé d'accueil et administratif joue un rôle essentiel dans les activités
+                                    d'accueil et administratives d'une structure. En tant que point de contact
+                                    privilégié, il contribue à créer une première impression positive et à faciliter les
+                                    échanges au sein de l'entreprise. Il est un interlocuteur important tant pour les
+                                    collaborateurs que pour les partenaires externes. De plus, il participe activement à
+                                    la qualité de la communication de la structure, valorise son image et assure le
+                                    relais de l'information. La dimension relationnelle de cette fonction est
+                                    primordiale.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-secretaire" role="tabpanel"
+                            aria-labelledby="list-secretaire-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 4 ( BAC)</li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    CAP/BEP titre professionnel niv 3 ou équivalence ou 1 année d'expérience dans le
+                                    domaine </li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> L'emploi de secrétaire comptable représente la jonction des métiers de
+                                    secrétaire et de comptable. Il se caractérise par une combinaison d'activités
+                                    relevant de ces deux domaines au sein du même emploi. Le secrétaire comptable exerce
+                                    les activités en combinant les actions administratives avec celles relatives au
+                                    commercial en lien avec la comptabilité.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-comptable" role="tabpanel"
+                            aria-labelledby="list-comptable-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 4 (BAC)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    CAP/BEP titre professionnel niv 3 ou équivalence ou 1 année d'expérience dans le
+                                    domaine</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Le comptable assistant réalise l'ensemble des travaux socles de
+                                    l'information comptable de l'entreprise. Il gère sur un plan administratif et
+                                    comptable les événements quotidiens de l'entreprise, ventes, achats, frais généraux,
+                                    mais aussi plus périodiques, transmission des variables de paie, déclarations de
+                                    TVA, tableaux de bord, et participe aux opérations d'arrêté des comptes de fin
+                                    d'exercice.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-assistant" role="tabpanel"
+                            aria-labelledby="list-assistant-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 5 (BAC+2)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    BAC NIV 4 ou équivalence ou 1 année d'expérience dans le domaine</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> L'assistant de direction assiste l'équipe de direction au quotidien,
+                                    organise et suit ses projets et dossiers spécifiques. L'assistant de direction
+                                    contribue activement à la valorisation de l'image de la structure, en interne comme
+                                    en externe.
+                                    Il joue un rôle central dans le système de communication, d'organisation et de
+                                    décision de la structure.
+                                    Compte tenu de son implication dans les projets, il a connaissance d'informations
+                                    confidentielles et respecte les règles de réserve et de discrétion professionnelle.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-arh" role="tabpanel" aria-labelledby="list-arh-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 5 (BAC+2)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    BAC NIV 4 ou équivalence ou 1 année d'expérience dans le domaine</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Grâce à sa double expertise pédagogique et technique, le formateur
+                                    professionnel d'adultes accompagne les apprenants dans l'apprentissage d'un métier
+                                    ou dans l'acquisition de compétences ou de savoirs nécessaires à l'accès à la
+                                    qualification, la professionnalisation et l'accès ou le maintien dans l'emploi.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -209,22 +312,79 @@
             <div class="row">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list"
-                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
-                            href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+                        <a class="list-group-item list-group-item-action active" id="list-cc-list" data-bs-toggle="list"
+                            href="#list-cc" role="tab" aria-controls="list-cc">COMMIS DE CUISINE</a>
+                        <a class="list-group-item list-group-item-action" id="list-serveur-list" data-bs-toggle="list"
+                            href="#list-serveur" role="tab" aria-controls="list-serveur">SERVEUR(SE) EN RESTAURATION</a>
+                        <a class="list-group-item list-group-item-action" id="list-employe-list" data-bs-toggle="list"
+                            href="#list-employe" role="tab" aria-controls="list-employe">EMPLOYE(E) POLYVALENT EN
+                            RESTAURATION</a>
                     </div>
                 </div>
                 <div class="col-8">
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                            aria-labelledby="list-home-list">...</div>
-                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                            aria-labelledby="list-profile-list">...</div>
-                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
-                            aria-labelledby="list-messages-list">...</div>
+                        <div class="tab-pane fade show active" id="list-cc" role="tabpanel"
+                            aria-labelledby="list-cc-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP : </i>
+                                    NIVEAU 3 (CAP)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i>
+                                    Maîtriser les compétences de base (Savoir lire, écrire, compter)</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Par sa maîtrise de la technique culinaire et sa rigueur, le commis de
+                                    cuisine contribue à la satisfaction de la clientèle et à la réputation de
+                                    l'établissement. Il réalise des productions culinaires simples, les dresse avec goût
+                                    et les envoie conformément aux consignes de son supérieur hiérarchique.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-serveur" role="tabpanel"
+                            aria-labelledby="list-serveur-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 3 (CAP)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i>
+                                    Maîtriser les compétences de base (Savoir lire, écrire, compter)</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Le serveur en restauration entretient et met en place les locaux et les
+                                    équipements, accueille le client, lui propose des mets et des boissons, prend la
+                                    commande et assure le service.
+
+                                    Il met en valeur le savoir-faire de l'établissement et de sa cuisine et veille au
+                                    maintien des conditions optimales de confort pour le client. Le serveur est
+                                    l'interface entre le client et l'entreprise et contribue à la bonne image et à la
+                                    notoriété de l'établissement.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-employe" role="tabpanel"
+                            aria-labelledby="list-employe-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 3 (CAP)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i>
+                                    Maîtriser les compétences de base (Savoir lire, écrire, compter)</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Par sa maîtrise de la technique culinaire et sa posture de service,
+                                    l'employé polyvalent en restauration contribue à la satisfaction de la clientèle et
+                                    à la réputation de l'établissement. Il réalise des productions culinaires simples,
+                                    les dresse avec goût et les distribue avec un accueil adapté au type de client.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,18 +397,69 @@
             <div class="row">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list"
-                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                        <a class="list-group-item list-group-item-action active" id="list-agent-list"
+                            data-bs-toggle="list" href="#list-agent" role="tab" aria-controls="list-agent">AGENT(E) DE
+                            PROPRETÉ ET
+                            D'HYGIÈNE</a>
+                            
+                        <a class="list-group-item list-group-item-action" id="list-ouvrier-list" data-bs-toggle="list"
+                            href="#list-ouvrier" role="tab" aria-controls="list-ouvrier">OUVRIER
+                            PAYSAGISTE</a>
                     </div>
                 </div>
                 <div class="col-8">
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                            aria-labelledby="list-home-list">...</div>
-                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                            aria-labelledby="list-profile-list">...</div>
+
+                        <div class="tab-pane fade show active" id="list-agent" role="tabpanel" aria-labelledby="list-agent-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 3 (CAP)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i>
+                                    Maîtriser les compétences de base (Savoir lire, écrire, compter)</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> L'agent de propreté et d'hygiène assure des prestations de nettoyage
+                                    manuel et mécanisé afin de garantir la propreté et l'hygiène d'équipements, de
+                                    surfaces et de locaux.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="list-ouvrier" role="tabpanel"
+                            aria-labelledby="list-ouvrier-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 3 (CAP)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i>
+                                    Maîtriser les compétences de base (Savoir lire, écrire, compter)</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> A partir de consignes orales ou d'informations écrites (plans, schémas ou
+                                    croquis) transmises par son responsable hiérarchique, l'ouvrier paysagiste participe
+                                    aux implantations des ouvrages, réalise les travaux de préparation de sol, de
+                                    plantation de tous types de végétaux, d'engazonnement ou d'enherbement, et de mise
+                                    en place de massifs ornementaux ou nourriciers, pérennes ou saisonniers, et à
+                                    intérêt écologique.
+
+                                    Il réalise, dans le respect des règles professionnelles, des ouvrages variés de
+                                    maçonnerie paysagère, cheminements, terrasses, emmarchements, clôtures, bordures,
+                                    etc. Il entretient les massifs, les végétaux isolés, les gazons, les friches et les
+                                    surfaces minérales, et nettoie leurs abords.
+
+                                    Il taille les végétaux dans un objectif esthétique et parfois productif (arbres
+                                    fruitiers). Il procède, depuis le sol, à l'élagage des arbres, et à l'abattage et au
+                                    débit d'arbres de quatrième grandeur (1).
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -261,18 +472,59 @@
             <div class="row">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list"
-                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                        <a class="list-group-item list-group-item-action active" id="list-conseiller-list"
+                            data-bs-toggle="list" href="#list-conseiller" role="tab"
+                            aria-controls="list-conseiller">CONSEILLER EN INSERTION PROFESSIONNELLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-formateur-list" data-bs-toggle="list"
+                            href="#list-formateur" role="tab" aria-controls="list-formateur">FORMATEUR PROFESSIONNEL
+                            D’ADULTES</a>
                     </div>
                 </div>
                 <div class="col-8">
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                            aria-labelledby="list-home-list">...</div>
-                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                            aria-labelledby="list-profile-list">...</div>
+                        <div class="tab-pane fade show active" id="list-conseiller" role="tabpanel"
+                            aria-labelledby="list-conseiller-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 5 (BAC+2)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    BAC NIV 4 ou équivalence ou 1 année d'expérience dans le domaine</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Le conseiller en insertion professionnelle (CIP) favorise, par des
+                                    réponses individualisées, l'insertion sociale et professionnelle des personnes
+                                    rencontrant ou non des difficultés d'insertion ou de reconversion, en prenant en
+                                    compte les dimensions multiples de l'insertion : emploi, formation, logement, santé,
+                                    mobilité, accès aux droits Son action vise à les accompagner pour construire et
+                                    s'approprier un parcours d'accès à l'emploi et surmonter progressivement les freins
+                                    rencontrés.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-formateur" role="tabpanel"
+                            aria-labelledby="list-formateur-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP :</i>
+                                    NIVEAU 5 (BAC+2)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible :</i>
+                                    Formation
+                                    en alternance ou continue
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis :</i> Niveau
+                                    BAC NIV 4 ou équivalence ou 1 année d'expérience dans le domaine</li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        :</i> Grâce à sa double expertise pédagogique et technique, le formateur
+                                    professionnel d'adultes accompagne les apprenants dans l'apprentissage d'un métier
+                                    ou dans l'acquisition de compétences ou de savoirs nécessaires à l'accès à la
+                                    qualification, la professionnalisation et l'accès ou le maintien dans l'emploi.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -285,17 +537,40 @@
             <div class="row">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list"
-                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+                        <a class="list-group-item list-group-item-action active" id="list-informatique-list"
+                            data-bs-toggle="list" href="#list-informatique" role="tab"
+                            aria-controls="list-informatique">TECHNICIEN INFORMATIQUE DE PROXIMITE</a>
                     </div>
-                    <div class="col-8">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                                aria-labelledby="list-home-list">...</div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-informatique" role="tabpanel"
+                            aria-labelledby="list-informatique-list">
+                            <ul class="list-group">
+                                <li class="list-group-item"> <i class="bi bi-award-fill fw-bold"> Niveau RNCP : </i>
+                                    NIVEAU 4 ( BAC)
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-shuffle fw-bold"> Parcours possible : </i>
+                                    Formation
+                                    en alternance
+                                </li>
+                                <li class="list-group-item"> <i class="bi bi-ui-checks fw-bold"> Pré-requis : </i>
+                                    Niveau CAP/BEP titre professionnel niv 3 ou équivalence ou 1 année d'expérience dans
+                                    le domaine </li>
+                                <li class="list-group-item"> <i class="bi bi-list-columns-reverse fw-bold"> Description
+                                        : </i> Le technicien informatique de proximité accompagne l'utilisateur dans
+                                    l'usage quotidien de ses équipements numériques, en assurant un support technique et
+                                    la maintenance des équipements réseaux de l'entreprise. Il gère les demandes
+                                    d'assistance et les incidents techniques, déploie les équipements, et veille à leur
+                                    disponibilité et à leur sécurité. Il intervient sur les infrastructures réseaux et
+                                    les solutions hébergées dans le cloud.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
+
 
     </main>
 
