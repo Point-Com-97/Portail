@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body class="body">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-animate" id="navbar">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-animate" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="image/logo.png" alt="Logo du portail d'inscription" class="logo">
@@ -74,7 +74,7 @@
                 <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-4">
                     <div class="col">
                         <div class="pc">
-                            <i class="bi bi-search"></i>
+                            <i class="bi bi-person-check"></i>
                             <span>J'ai un employeur</span>
                             <a class="btn btn-primary"
                                 href="https://baserow-backend-production20240528124524339000000001.s3.amazonaws.com/user_files/4z7incuBEmia52Bfo0bYHct7rpHr4cki_42e4247e3c87519d215f8a2735fc1fb9bee345cecd577b053bf9be5da418795a.pdf"
@@ -84,7 +84,7 @@
 
                     <div class="col">
                         <div class="pc">
-                            <i class="bi bi-clipboard-check"></i>
+                            <i class="bi bi-search"></i>
                             <span>Je recherche un employeur</span>
                             <a class="btn btn-primary"
                                 href="https://baserow-backend-production20240528124524339000000001.s3.amazonaws.com/user_files/ORxfROiU75i6JvVlKAoTicIhQY0Jko06_294c68185dd7754d98fec9284b0409be6324afa1ebb818a9a240db0bd047e10f.pdf"
@@ -94,17 +94,21 @@
 
                     <div class="col">
                         <div class="pc">
-                            <i class="bi bi-send-check"></i>
+                            <i class="bi bi-person-wheelchair"></i>
                             <span>Je suis en situation d'handicap</span>
-                            <a class="btn btn-primary" href="https://www.pointcom-guyane.fr/402+vous-etes-en-situation-dhandicap.html" target="_blank">Plus d'infos</a>
+                            <a class="btn btn-primary"
+                                href="https://www.pointcom-guyane.fr/402+vous-etes-en-situation-dhandicap.html"
+                                target="_blank">Plus d'infos</a>
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="pc">
-                            <i class="bi bi-check-circle"></i>
+                            <i class="bi bi-clipboard2-data"></i>
                             <span>Bilan de compétences</span>
-                            <a class="btn btn-primary" href="https://www.pointcom-guyane.fr/645+tout-savoir-sur-le-bilan-de-competences.html" target="_blank">Plus d'infos</a>
+                            <a class="btn btn-primary"
+                                href="https://www.pointcom-guyane.fr/645+tout-savoir-sur-le-bilan-de-competences.html"
+                                target="_blank">Plus d'infos</a>
                         </div>
                     </div>
                 </div>
@@ -112,9 +116,10 @@
         </section>
 
         <!-- Activity Section -->
-        <h3 class="title-activity pt-3 text-animate">Centre de formation des apprentis, en alternance et en formation
+        <h3 class="title-activity pt-3 title-animateziu ">Centre de formation des apprentis, en alternance et en
+            formation
             continue.</h3>
-        <h4 class="title-activity text-animate">Découvrez nos différentes filières :</h4>
+        <h4 class="title-activity title-animate">Découvrez nos différentes filières :</h4>
 
         <!-- Activity Cards -->
         <section class="activity">
@@ -627,7 +632,51 @@
         </section>
     </main>
 
-    <footer class="footer"></footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container py-4">
+            <div class="row g-3 footer-grid">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-block">
+                        <h5 class="footer-title"><i class="bi bi-telephone-fill"></i> Contact</h5>
+                        <p class="footer-text mb-1">Centre de Cayenne : <a href="tel:0594313724">05 94 31 37 24</a></p>
+                        <p class="footer-text mb-1">Centre de Matoury : <a href="tel:0594281905">05 94 28 19 05</a></p>
+                        <p class="footer-text mb-0"><a href="mailto:contact@cfa-pcom.fr">contact@cfa-pcom.fr</a></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-block">
+                        <h5 class="footer-title"><i class="bi bi-clock-fill"></i> Horaires</h5>
+                        <p class="footer-text mb-1">Lundi : 08:30 - 12:00</p>
+                        <p>------------------------------------------------</p>
+                        <p class="footer-text mb-1">Mardi - Vendredi</p>
+                        <p class="footer-text mb-1"> Matin : 08:30 - 12:00</p>
+                        <p class="footer-text mb-1"> Après-midi :13:30 - 16:00</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-block">
+                        <h5 class="footer-title"><i class="bi bi-share-fill"></i> Reseaux sociaux</h5>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/association.pointcom" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a>
+                            <a href="https://www.instagram.com/point_com_/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-block">
+                        <h5 class="footer-title"><i class="bi bi-patch-check-fill"></i> Certification Qualiopi</h5>
+                        <p class="footer-text mb-1">Organisme certifie Qualiopi</p>
+                        <a class="footer-text mb-1 fs-5" href="https://baserow-backend-production20240528124524339000000001.s3.amazonaws.com/user_files/Zl0tpD3DbzWbKNwdRFGyXRFwleMuaq01_0f2765e87f37c5e4cc340ffddb15badae1b3a80d9d73c2b22dee9cf1a585f6d5.pdf" target="_blank" rel="noopener noreferrer"><img src="image/qualiopi.png" class="img-fluid" alt="Certification Qualiopi">Certification Qualiopi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

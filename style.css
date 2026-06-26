@@ -1,8 +1,27 @@
-body {
+:root {
+    --anchor-offset: 96px; /* hauteur navbar desktop */
+}   
+
+/* Décalage global pour toutes les ancres */
+html {
+    scroll-padding-top: var(--anchor-offset);
+}
+
+/* Sécurité: décale aussi explicitement les sections ciblées */
+.formation {
+    scroll-margin-top: var(--anchor-offset);
+}
+
+/* Navbar plus haute en mobile (menu burger) */
+@media (max-width: 991.98px) {
+    :root {
+        --anchor-offset: 130px;
+    }
+}
+
+.body {
     font-family: Arial, sans-serif;
-    background-color: #e0e0e0;
-    margin: 0;
-    padding: 0;
+    background-color: #f0e9e9;
 }
 
 .logo {
@@ -13,28 +32,11 @@ body {
     border-radius: 10px;
 }
 
-.header {
-    background: #3295c3;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.footer {
-    background: linear-gradient(45deg, #432e7d, #3295c3);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
 #navbar {
     background: linear-gradient(45deg, #432e7d, #3295c3, #432e7d);
     background-size: 200% 200%;
     padding: 0px;
+    margin: 0px;
 }
 
 .navbar-animate {
@@ -125,7 +127,7 @@ body {
 }
 
 .absolute {
-    margin-top: -50px;
+    margin-top: -30px;
     position: relative;
     z-index: 2;
     padding: 0 16px;
@@ -159,7 +161,7 @@ body {
 }
 
 .pc i {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #2253d6;
 }
 
@@ -213,6 +215,19 @@ body {
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+.title-animate {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: titleIn 1.5s ease-out forwards;
+}
+
+@keyframes titleIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -275,3 +290,62 @@ body {
     margin: 20px auto;
 }
 
+.footer {
+    margin-top: 32px;
+    background: linear-gradient(45deg, #1a2f78, #3295c3);
+    color: #ffffff;
+}
+
+.footer-grid {
+    align-items: stretch;
+}
+
+.footer-block {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    padding: 16px;
+}
+
+.footer-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.footer-title i {
+    margin-right: 8px;
+}
+
+.footer-text {
+    font-size: 0.92rem;
+    margin: 0;
+}
+
+.footer-text a,
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-text a:hover,
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 24px;
+    }
+
+    .footer-block {
+        padding: 14px;
+    }
+}
