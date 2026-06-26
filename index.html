@@ -110,52 +110,63 @@
 
         <!-- Activity Cards -->
         <section class="activity">
+
             <div class="row row-cols-1 row-cols-md-5 g-2">
-                <div class="col">
-                    <div class="card anime-card">
-                        <img src="image/1.png" class="card-img-top" alt="Secrétariat / Comptabilité ">
-                        <div class="card-body">
-                            <h5 class="card-title">Secrétariat / Comptabilité</h5>
+                <a href="#link-SC">
+                    <div class="col">
+                        <div class="card anime-card">
+                            <img src="image/1.png" class="card-img-top" alt="Secrétariat / Comptabilité ">
+                            <div class="card-body">
+                                <h5 class="card-title">Secrétariat / Comptabilité</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card anime-card">
-                        <img src="image/2.png" class="card-img-top" alt="Hôtellerie / Restauration">
-                        <div class="card-body">
-                            <h5 class="card-title">Hôtellerie / Restauration</h5>
+                </a>
+                <a href="#link-hotellerie-restauration">
+                    <div class="col">
+                        <div class="card anime-card">
+                            <img src="image/2.png" class="card-img-top" alt="Hôtellerie / Restauration">
+                            <div class="card-body">
+                                <h5 class="card-title">Hôtellerie / Restauration</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card anime-card">
-                        <img src="image/3.png" class="card-img-top" alt="Hygiène / Espace vert">
-                        <div class="card-body">
-                            <h5 class="card-title">Hygiène / Espace vert</h5>
+                </a>
+                <a href="#link-hygiene-espace-vert">
+                    <div class="col">
+                        <div class="card anime-card">
+                            <img src="image/3.png" class="card-img-top" alt="Hygiène / Espace vert">
+                            <div class="card-body">
+                                <h5 class="card-title">Hygiène / Espace vert</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card anime-card">
-                        <img src="image/4.png" class="card-img-top" alt="Informatique">
-                        <div class="card-body">
-                            <h5 class="card-title">Informatique</h5>
+                </a>
+                <a href="#link-socio-professionnel">
+                    <div class="col">
+                        <div class="card anime-card">
+                            <img src="image/5.png" class="card-img-top" alt="Socio-professionnel">
+                            <div class="card-body">
+                                <h5 class="card-title">Socio-professionnel</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card anime-card">
-                        <img src="image/5.png" class="card-img-top" alt="Socio-professionnel">
-                        <div class="card-body">
-                            <h5 class="card-title">Socio-professionnel</h5>
+                </a>
+                <a href="#link-informatique">
+                    <div class="col">
+                        <div class="card anime-card">
+                            <img src="image/4.png" class="card-img-top" alt="Informatique">
+                            <div class="card-body">
+                                <h5 class="card-title">Informatique</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </section>
 
         <!--Formation section-->
-        <section class="formation">
+        <section class="formation" id="link-SC">
 
             <h4 class="title-activity text-animate">Secrétariat/Comptabilité</h4>
 
@@ -170,6 +181,8 @@
                             href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
                         <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
                             href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
                     </div>
                 </div>
                 <div class="col-8">
@@ -182,12 +195,14 @@
                             aria-labelledby="list-messages-list">...</div>
                         <div class="tab-pane fade" id="list-settings" role="tabpanel"
                             aria-labelledby="list-settings-list">...</div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">...</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="formation">
+        <section class="formation" id="link-hotellerie-restauration">
 
             <h4 class="title-activity text-animate">Hôtellerie/Restauration</h4>
 
@@ -215,7 +230,7 @@
             </div>
         </section>
 
-                <section class="formation">
+        <section class="formation" id="link-hygiene-espace-vert">
 
             <h4 class="title-activity text-animate">Hygiène / Espace vert</h4>
 
@@ -239,26 +254,7 @@
             </div>
         </section>
 
-                <section class="formation">
-
-            <h4 class="title-activity text-animate">Informatique</h4>
-
-            <div class="row">
-                <div class="col-4">
-                    <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list"
-                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
-                </div>
-                <div class="col-8">
-                    <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                            aria-labelledby="list-home-list">...</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-                <section class="formation">
+        <section class="formation" id="link-socio-professionnel">
 
             <h4 class="title-activity text-animate">Socio-professionnel</h4>
 
@@ -280,6 +276,25 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="formation" id="link-informatique">
+
+            <h4 class="title-activity text-animate">Informatique</h4>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                aria-labelledby="list-home-list">...</div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
     </main>
