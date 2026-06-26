@@ -196,29 +196,59 @@ body {
 }
 
 .card-title {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: bold;
     color: #0b1b4d;
     text-align: center;
 }
 
-.text-animate{
+
+.info-anime {
     opacity: 0;
-    transform: translateY(20px);
-    animation: textIn 1.5s ease-out forwards;
+    transform: translateX(20px);
+    animation: infoIn 1.5s ease-out forwards;
 }
 
-@keyframes textIn {
+@keyframes infoIn {
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 
+
 .anime-card {
     opacity: 0;
-    transform: translateY(20px);
-    animation: cardIn 1.5s ease-out forwards;
+    border: 4px solid;
+    border-color: #432e7d #00c3ff #432e7d #00c3ff;
+    border-radius: 10px;
+    animation: cardIn 1.5s ease-out forwards, cardFlow 5s ease-in-out infinite, borderFlow 2s ease-in-out infinite;
+}
+
+@keyframes borderFlow {
+    0% {
+        border-color: #432e7d #00c3ff #432e7d #00c3ff;
+    }
+    50% {
+        border-color: #3295c3 #432e7d #00c3ff #432e7d;
+    }
+    100% {
+        border-color: #432e7d #00c3ff #432e7d #00c3ff;
+    }
+}
+
+@keyframes cardFlow {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @keyframes cardIn {
@@ -228,15 +258,11 @@ body {
     }
 }
 
-.anime-card:hover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid #3295c3;
-    border-radius: 5px;
+.card-title:hover {
+    color: #ffa600;
+    font-size: 0.90rem;
+    text-decoration: underline;
+
 }
 
 .formation {
