@@ -167,8 +167,14 @@ html {
 }
 
 .pc i {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #2253d6;
+}
+
+.pc span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1f2a44;
 }
 
 @media (max-width: 768px) {
