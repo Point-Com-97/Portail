@@ -17,11 +17,15 @@
     <!-- Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-animate" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="image/logo.png" alt="Logo du portail d'inscription" class="logo">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-underline">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo.png" alt="Logo du portail d'inscription" class="logo">
+                </a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
 
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" id="nav-item" target="_blank"
@@ -39,7 +43,7 @@
                             href="https://baserow.io/form/oB9Wkj4lGIfdQADY0ZT9IigxWG8I75JBL9J6nsuxa8g">Inscription</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav nav-underline ms-auto">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-underline">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" id="nav-item" href="tel:0594313724"><i
                                 class="bi bi-telephone"></i> 0594 31 37 24</a>
@@ -183,9 +187,9 @@
 
             <h4 class="title-activity">Secrétariat/Comptabilité</h4>
 
-            <div class="row">
-                <div class="col-4">
-                    <div class="list-group" id="list-tab" role="tablist">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4">
+                    <div class="list-group" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-cadga-list"
                             data-bs-toggle="list" href="#list-cadga" role="tab" aria-controls="list-cadga">CHARGE
                             D’ACCUEIL ET DE GESTION ADMINISTRATIVE</a>
@@ -200,8 +204,9 @@
                             href="#list-arh" role="tab" aria-controls="list-arh">ASSISTANT RESSOURCES HUMAINES</a>
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="tab-content" id="nav-tabContent">
+
+                <div class="col-12 col-lg-8">
+                    <div class="tab-content">
                         <div class="tab-pane fade show active" id="list-cadga" role="tabpanel"
                             aria-labelledby="list-cadga-list">
                             <ul class="list-group">
@@ -338,11 +343,9 @@
         </section>
 
         <section class="formation" id="link-hotellerie-restauration">
-
             <h4 class="title-activity">Hôtellerie/Restauration</h4>
-
-            <div class="row">
-                <div class="col-4">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-cc-list" data-bs-toggle="list"
                             href="#list-cc" role="tab" aria-controls="list-cc">COMMIS DE CUISINE</a>
@@ -353,7 +356,7 @@
                             RESTAURATION</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-cc" role="tabpanel"
                             aria-labelledby="list-cc-list">
@@ -438,8 +441,8 @@
 
             <h4 class="title-activity">Hygiène / Espace vert</h4>
 
-            <div class="row">
-                <div class="col-4">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-agent-list"
                             data-bs-toggle="list" href="#list-agent" role="tab" aria-controls="list-agent">AGENT(E) DE
@@ -451,7 +454,7 @@
                             PAYSAGISTE</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="tab-content" id="nav-tabContent">
 
                         <div class="tab-pane fade show active" id="list-agent" role="tabpanel"
@@ -522,8 +525,8 @@
 
             <h4 class="title-activity ">Socio-professionnel</h4>
 
-            <div class="row">
-                <div class="col-4">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-conseiller-list"
                             data-bs-toggle="list" href="#list-conseiller" role="tab"
@@ -533,7 +536,7 @@
                             D’ADULTES</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-conseiller" role="tabpanel"
                             aria-labelledby="list-conseiller-list">
@@ -594,15 +597,15 @@
         <section class="formation" id="link-informatique">
 
             <h4 class="title-activity">Informatique</h4>
-            <div class="row">
-                <div class="col-4">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-informatique-list"
                             data-bs-toggle="list" href="#list-informatique" role="tab"
                             aria-controls="list-informatique">TECHNICIEN INFORMATIQUE DE PROXIMITE</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-informatique" role="tabpanel"
                             aria-labelledby="list-informatique-list">
@@ -649,7 +652,6 @@
                     <div class="footer-block">
                         <h5 class="footer-title"><i class="bi bi-clock-fill"></i> Horaires</h5>
                         <p class="footer-text mb-1">Lundi : 08:30 - 12:00</p>
-                        <p>------------------------------------------------</p>
                         <p class="footer-text mb-1">Mardi - Vendredi</p>
                         <p class="footer-text mb-1"> Matin : 08:30 - 12:00</p>
                         <p class="footer-text mb-1"> Après-midi :13:30 - 16:00</p>
@@ -660,8 +662,10 @@
                     <div class="footer-block">
                         <h5 class="footer-title"><i class="bi bi-share-fill"></i> Reseaux sociaux</h5>
                         <div class="social-links">
-                            <a href="https://www.facebook.com/association.pointcom" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a>
-                            <a href="https://www.instagram.com/point_com_/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> Instagram</a>
+                            <a href="https://www.facebook.com/association.pointcom" target="_blank"
+                                rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a>
+                            <a href="https://www.instagram.com/point_com_/" target="_blank" rel="noopener noreferrer"><i
+                                    class="bi bi-instagram"></i> Instagram</a>
                         </div>
                     </div>
                 </div>
@@ -670,7 +674,10 @@
                     <div class="footer-block">
                         <h5 class="footer-title"><i class="bi bi-patch-check-fill"></i> Certification Qualiopi</h5>
                         <p class="footer-text mb-1">Organisme certifie Qualiopi</p>
-                        <a class="footer-text mb-1 fs-5" href="https://baserow-backend-production20240528124524339000000001.s3.amazonaws.com/user_files/Zl0tpD3DbzWbKNwdRFGyXRFwleMuaq01_0f2765e87f37c5e4cc340ffddb15badae1b3a80d9d73c2b22dee9cf1a585f6d5.pdf" target="_blank" rel="noopener noreferrer"><img src="image/qualiopi.png" class="img-fluid" alt="Certification Qualiopi">Certification Qualiopi</a>
+                        <a class="footer-text mb-1 fs-5"
+                            href="https://baserow-backend-production20240528124524339000000001.s3.amazonaws.com/user_files/Zl0tpD3DbzWbKNwdRFGyXRFwleMuaq01_0f2765e87f37c5e4cc340ffddb15badae1b3a80d9d73c2b22dee9cf1a585f6d5.pdf"
+                            target="_blank" rel="noopener noreferrer"><img src="image/qualiopi.png" class="img-fluid"
+                                alt="Certification Qualiopi">Certification Qualiopi</a>
                     </div>
                 </div>
             </div>

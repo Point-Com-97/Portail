@@ -26,16 +26,22 @@ html {
 
 .logo {
     display: block;
-    float: left;
-    margin: 5px 10px;
     max-width: 200px;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 150px;
+        margin-top: 25px;
+        margin-bottom: -25px;
+    }
 }
 
 #navbar {
     background: linear-gradient(45deg, #432e7d, #3295c3, #432e7d);
     background-size: 200% 200%;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 
@@ -347,5 +353,55 @@ html {
 
     .footer-block {
         padding: 14px;
+    }
+}
+
+.formation .list-group {
+    width: 100%;
+}
+
+.formation .list-group-item {
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.formation .tab-content .list-group-item {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+    .formation .row {
+        flex-direction: column;
+    }
+
+    .formation .col-lg-4,
+    .formation .col-lg-8 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .formation .list-group {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .formation {
+        padding: 16px;
+    }
+
+    .formation .title-activity {
+        font-size: 1.2rem;
+    }
+
+    .formation .list-group-item {
+        font-size: 0.9rem;
+    }
+
+    .formation .tab-content .list-group-item {
+        font-size: 0.9rem;
+        padding: 10px 12px;
     }
 }
